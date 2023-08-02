@@ -25,7 +25,7 @@ If someone wanted to run the script for some reason, here is an example usage:
 
 > **-s 524** - number of bytes into the binary file to start reading. 
 
-I should probably mention there's a bit of functionality left over from debugging: when the script is run it creates a text file for each binary file in encounters and writes the hex string to it. In other words if you run this against 250 ROM files you'll have 250 txt files plus the log file. This doesn't take much storage space, just possibly annoying. I'll take that out eventually.
+I should probably mention there's a bit of functionality left over from debugging: when the script is run it creates a text file for each binary file it encountered and writes the hex string to it. In other words if you run this against 250 ROM files you'll have 250 txt files (plus the log file). This doesn't take much storage space, just possibly annoying. I'll take that out eventually.
 
 The number of bytes to read is set to 32 in the script. This can just be changed arbirarily in the python script itself.
 
