@@ -1,0 +1,14 @@
+move *prot*.* .\proto-beta-homebrew\
+move *homebrew*.* .\proto-beta-homebrew\
+move *brazil*.* .\proto-beta-homebrew\
+move *beta*.* .\proto-beta-homebrew\
+move *europe*.* .\proto-beta-homebrew\
+move *"(japan,"*.* .\proto-beta-homebrew\
+move *"(pal"*.* .\proto-beta-homebrew\
+move *" - remix"*.* .\proto-beta-homebrew\
+move *"france"*.* .\proto-beta-homebrew\
+move *"anthology"*.* .\proto-beta-homebrew\
+move *"~"*.* .\proto-beta-homebrew\
+
+ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+
