@@ -16,9 +16,13 @@ If someone wanted to run the script for some reason, here is an example usage:
 > **``` .\bin2hex-hex2bin-combined-v8.py -allbin .a26 -b2h  .\roms\ -s 524 ```**
 
 > **-allbin** - supposed to tell it to go through all binaries
+
 > **.a26** - files with a26 extensions 
+
 > **-b2h** - would like to do binary to hex conversion
+
 > **.\roms\\** - path to directory - in this case relative path to "roms" directory. Can also take full paths or use the current directory with a period **.**
+
 > **-s 524** - number of bytes into the binary file to start reading. 
 
 The number of bytes to read is set to 32 in the script. This can just be changed arbirarily in the python script itself.
