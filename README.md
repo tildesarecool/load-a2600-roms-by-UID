@@ -13,7 +13,7 @@ The current version of the python script, bin2hex-hex2bin-combined, will (in sum
 
 If someone wanted to run the script for some reason, here is an example usage:
 
-> **``` .\bin2hex-hex2bin-combined-v8.py -allbin .a26 -b2h  .\roms\ -s 524 ```**
+**``` .\bin2hex-hex2bin-combined-v8.py -allbin .a26 -b2h  .\roms\ -s 524 ```**
 
 > **-allbin** - supposed to tell it to go through all binaries
 
@@ -24,6 +24,8 @@ If someone wanted to run the script for some reason, here is an example usage:
 > **.\roms\\** - path to directory - in this case relative path to "roms" directory. Can also take full paths or use the current directory with a period **.**
 
 > **-s 524** - number of bytes into the binary file to start reading. 
+
+I should probably mention there's a bit of functionality left over from debugging: when the script is run it creates a text file for each binary file in encounters and writes the hex string to it. In other words if you run this against 250 ROM files you'll have 250 txt files plus the log file. This doesn't take much storage space, just possibly annoying. I'll take that out eventually.
 
 The number of bytes to read is set to 32 in the script. This can just be changed arbirarily in the python script itself.
 
