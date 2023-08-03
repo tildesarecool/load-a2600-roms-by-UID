@@ -1,4 +1,5 @@
 # Load Atari 2600 ROMs by UID
+
 Development of support scripts for an Atari 2600 project I'm working on.
 
 Perhaps I should describe how I imagine the final product will look that work my way backwards the steps needed in my attempt to accomplish this vision.
@@ -9,6 +10,8 @@ That's the best summary I can come up with.
 
 I've started to break down the steps to accomplish this goal already with a series of python scripts. I started developing the script without the aid of git so I ended up with different file names for prior versions. Amature hour version tracking ftw.
 
+## bin2hex-hex2bin-combined 
+
 The current version of the python script, bin2hex-hex2bin-combined, will (in summary) take a directory as input and loop through the ROM files it finds capturing the 32 bytes and writing the file names and hex strings a single log file, tab-separated.  
 
 If someone wanted to run the script for some reason, here is an example usage:
@@ -17,7 +20,7 @@ If someone wanted to run the script for some reason, here is an example usage:
 
 > **-allbin** - supposed to tell it to go through all binaries
 
-> **.a26** - files with a26 extensions 
+> **.a26** - files with a26 extensions (this can be either .a26 or just a26, either will work)
 
 > **-b2h** - would like to do binary to hex conversion
 
