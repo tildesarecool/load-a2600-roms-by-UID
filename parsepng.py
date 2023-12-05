@@ -115,7 +115,7 @@ result.save('encoded.png')
 # ------------------------------- working 16 min 30s mark to 20:30 min mark -------------------------------
 
 # i thought i was clever by just commenting out that "not supported" snippet but i kept getting errors
-# i finally tried a different png file that didn't come back as "no supported"
+# i finally tried a different png file that didn't come back as "not supported"
 # so the below works but only with a supported PNG file, as that code would imply
 
 '''
